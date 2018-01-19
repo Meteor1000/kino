@@ -15,7 +15,7 @@ public class MyPanel extends JPanel {
         readSeatsFromFile(seats, seatsString);
     }
     public static void readSeatsFromFile(MyButton[][] seats, String[][] seatsString) {
-        String filePath = "src/matrix.txt";
+        String filePath = "matrix.txt";
         String[] rowElements;
         String line;
         try {

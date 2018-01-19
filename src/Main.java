@@ -25,7 +25,7 @@ public class Main {
     public static void saveData(String[][] seatsArray){
         PrintWriter pw = null;
         try {
-            pw = new PrintWriter(new FileWriter("src/matrix.txt"));
+            pw = new PrintWriter(new FileWriter("matrix.txt"));
             for(int i=0;i<9;i++){
                 for(int j=0;j<9;j++){
                     pw.printf("%s ",String.valueOf(seatsArray[i][j]));
@@ -40,5 +40,7 @@ public class Main {
         }
         pw.close();
     }
+
+
 }
 
